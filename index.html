@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Persona5</title>
+  <!--引入相关的css文件 -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-icons.css">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/font-awesome.min.css">
+  <!--引入相关的js文件-->
+  <script src="bootstrap/js/jquery.slim.min.js"></script>
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+</head>
+
+<body>
+  <audio id="musicplayer" autoplay>
+    <source src="/media/Life Will Change.mp3" />
+  </audio>
+  <section id="nav" class="nav fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+          <img width="80sp" src="images/touxin.jpg" alt="">
+          <strong><span>Persona5</span></strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="bi bi-list"></i>
+          <i class="bi bi-x"></i>
+        </button>
+        <div class="collapse navbar-collapse fiex-row-reverse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#home">首页 <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#about">关于</a>
+            <a class="nav-link" href="#menu">Strange Thief Group</a>
+            <a class="nav-link" href="#gallery">High Light</a>
+            <a class="nav-link" href="#newsletter">"暗号"</a>
+
+
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <!--焦点图模块-->
+  <section id="home " class="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="jumbotron">
+            <b>
+              <p class="lead">Persona5</p>
+            </b>
+            <h1 class="display-4">----偷走你的心</h1>
+            <a class="btn btn-outline-primary btn-lg" href="#" target="_blank" role="button">夺取秘宝</a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!--关于模块-->
+  <section id="about" class="about">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-12 col-md-6 d-none d-md-block">
+          <img class="img-fluid" src="images/cyuan2.jpg">
+        </div>
+        <div class="col-12 col-md-6">
+          <h2><small>心之怪盗团</small></h2>
+          <h2>— — — —我们将“偷走”你的心</h2>
+          <p class="">因被诬告而遭到指控，在转学到私立秀尽学园、经由机缘觉醒了“人格面具”的能力、组成心之怪盗团后，将探索由人类潜意识欲望的物理表现组成的异世界“殿堂”、夺取其产生欲望的秘宝来使恶人悔改。</p>
+          <a class="btn btn-outline-primary" href="https://persona5.jp/" role="button">How Play</a>
+          <div class="row">
+            <div class="col-4">
+              <div class="icons text-center">
+                <i class="bi bi-playstation"></i>
+                <p>PlayStation</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="icons text-center">
+                <i class="bi bi-nintendo-switch"></i>
+                <p>Switch</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="icons text-center">
+                <i class="bi bi-xbox"></i>
+                <p>Xbox</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--菜单模块-->
+  <section id="menu" class="menu">
+    <div class="container">
+      <div class="page-header text-center">
+        <h1>Strange Thief Group</h1>
+      </div>
+      <div class="row">
+        <div id="xuanzhuan1" class="col-12 col-md-6 col-lg-4">
+          <div class="card text-center">
+            <img src="images/mona.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+
+              <h5 class="card-title">The Magician</h5>
+              <h6 class="card-title">摩尔加纳</h6>
+              <p class="card-text">怪盗团的精神支柱,对应塔罗牌为【魔术师】,拥有人格面具【佐罗】</p>
+              <a href="https://mzh.moegirl.org.cn/%E6%91%A9%E5%B0%94%E5%8A%A0%E7%BA%B3" target="_blank" class="btn btn-primary">介绍</a>
+            </div>
+          </div>
+        </div>
+        <div id="xuanzhuan2" class="col-12 col-md-6 col-lg-4">
+          <div class="card text-center">
+            <img src="images/longsi.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Chariot</h5>
+              <h6 class="card-title">坂本龙司</h6>
+              <p class="card-text">心之怪盗团中的“冲锋陷阵的队长”,对应塔罗牌为【战车】,拥有人格面具【船长基德】</p>
+              <a href="https://mzh.moegirl.org.cn/%E5%9D%82%E6%9C%AC%E9%BE%99%E5%8F%B8" target="_blank" class="btn btn-primary">介绍</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card  text-center">
+            <img src="images/gaojuanxing.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Lovers</h5>
+              <h6 class="card-title">高卷杏</h6>
+              <p class="card-text">美国混血的日本归国子女,对应塔罗牌为【恋爱】,拥有人格面具【卡门】</p>
+              <a href="https://mzh.moegirl.org.cn/%E9%AB%98%E5%8D%B7%E6%9D%8F" target="_blank" class="btn btn-primary">介绍</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card text-center">
+            <img src="images/qionggemen.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The Emperor</h5>
+              <h6 class="card-title">喜多川祐介</h6>
+              <p class="card-text">感性独特，有点无法融入社会的美术特长生,对应塔罗牌为【皇帝】,拥有人格面具【五右卫门】</p>
+              <a href="https://mzh.moegirl.org.cn/%E5%96%9C%E5%A4%9A%E5%B7%9D%E7%A5%90%E4%BB%8B" target="_blank" class="btn btn-primary">介绍</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card text-center">
+            <img src="images/xindaozhen.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">The High Priestess</h5>
+              <h6 class="card-title">新岛真</h6>
+              <p class="card-text">怪盗团中的大脑,对应塔罗牌为【女教皇】,拥有人格面具【琼安】</p>
+              <a href="https://mzh.moegirl.org.cn/%E6%96%B0%E5%B2%9B%E7%9C%9F" target="_blank" class="btn btn-primary">介绍</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card text-center">
+            <img src="images/mingzhi.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">"Justice"</h5>
+              <h6 class="card-title">明智吾郎</h6>
+              <p class="card-text">“侦探王子二世”,对应塔罗牌为【正义】,拥有人格面具【罗宾汉】</p>
+              <a href="https://mzh.moegirl.org.cn/%E6%98%8E%E6%99%BA%E5%90%BE%E9%83%8E" target="_blank" class="btn btn-primary">介绍</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 插画 -->
+  <div id="kdt" class="kdt" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-interval="10000">
+        <img src="images/bz1.jpg" class="d-block w-100" alt="...">
+      </div>
+
+    </div>
+<p></p>
+<p></p>
+    <!-- 介绍 -->
+    <div class="card mb-3" style="max-width: 100%;">
+      <div class="row no-gutters">
+        <div id="sview" class="col-md-5">
+          <img src="images/persona/all p.jpg" alt="...">
+        </div>
+        <div id="stext" class="col-md-7">
+          <div class="cardbody">
+            <h1 id="ts" class="card-title"><b> 《女神异闻录》是什么？</b></h1>
+            <h2 id="ts2" class="card-text">[女神异闻录]为青少年侠盗RPG系列游戏，以现代日本都市为舞台，玩家在体验校园生活、友情、恋爱等生活小事的同时，须挺身面对不可思议的谣言、都市传说等超自然事件。描写主角与觉醒[人格面具能力]的少年少女相遇，并对抗重重困难，逐渐成长的故事。近年亦将触角伸至电视动画、剧场版动画、武道馆Live音乐会、舞台剧、漫画等媒体，每天不断地扩展其魅力。作品中的[人格面具]指的是沉睡於自身体内的[另一个人格]化身成[自古以来的神或恶魔]的样貌现身的个体，是一种拥有强大力量的[另一个自己]</h2>
+            
+          </div>
+        </div>
+      </div>
+    </div>  
+    <p></p>
+    <p></p>
+    <!-- 相册模块 -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="page-header text-center">
+          <h1>High Light</h1>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card text-center">
+              <img src="images/persona/2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ATLUS</h5>
+                <p class="card-text">《女神异闻录全系列》</p>
+                <a href="https://p-ch.jp/" target="_blank" class="btn btn-primary">关于女神异闻录系列</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card text-center">
+              <img src="images/persona/3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ATLUS</h5>
+                <p class="card-text">《女神异闻录5》</p>
+                <a href="https://zh.moegirl.org.cn/%E5%A5%B3%E7%A5%9E%E5%BC%82%E9%97%BB%E5%BD%955" target="_blank" class="btn btn-primary">了解更多</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card text-center">
+              <img src="images/persona/4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ATLUS</h5>
+                <p class="card-text">《女神异闻录5》</p>
+                <a href="https://p5r.jp/" target="_blank" class="btn btn-primary">了解更多</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card text-center">
+              <img src="images/persona/5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ATLUS</h5>
+                <p class="card-text">《女神异闻录5:动画版》</p>
+                <a href="https://www.bilibili.com/bangumi/media/md79312" target="_blank" class="btn btn-primary">立即观看</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card text-center">
+              <img src="images/persona/p3m.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ATLUS</h5>
+                <p class="card-text">《女神异闻录3:剧场版》</p>
+                <a href="https://www.bilibili.com/bangumi/play/ss2845?theme=movie&spm_id_from=333.337.0.0" target="_blank" class="btn btn-primary">立即观看</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card text-center">
+              <img src="images/persona/p4ga.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ATLUS</h5>
+                <p class="card-text">《女神异闻录4:黄金版》动画</p>
+                <a href="https://www.bilibili.com/bangumi/media/md2717" target="_blank" class="btn btn-primary">立即观看</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card text-center">
+              <img src="images/persona/p3.jpg" class="card-img-top" alt="...r">
+              <div class="card-body">
+                <h5 class="card-title">ATLUS</h5>
+                <b><p class="card-text">《女神异闻录P3R》</p></b>
+                <a href="https://p3re.jp/" target="_blank" class="btn btn-primary">>关于《女神异闻录3 Reload》</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card text-center">
+              <img src="images/persona/7.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ATLUS</h5>
+                <b><p class="card-text">《女神异闻录P4G》</p></b>
+                <a href="https://p-ch.jp/remaster/p4g/" target="_blank" class="btn btn-primary">>关于《女神异闻录4:Golden》</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card text-center">
+              <img src="images/persona/p5r.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ATLUS</h5>
+                <b><p class="card-text">《女神异闻录P5R》</p></b>
+                <a href="https://p5r.jp/" target="_blank" class="btn btn-primary">>关于《女神异闻录5:The Royal》</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </section>
+
+    <section id="newsletter" class="newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3 text-center">
+            <h3>Notice letter</h3>
+            <p>This is a false space
+            </p>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="请输入邀请函上的暗号" aria-label="Recipient's username"
+                aria-describedby="button-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">进入印象空间</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 页脚模块 -->
+    <footer>
+      <div class="BOX">
+        <div class="row">
+          <div class="col-12">
+            <div class="text-center">
+              <h1>PERSONA</h1>
+              <p>Created By <a href="">Chris_HE</a> Designer | All Rights Reserved!</p>
+              <div class="row">
+                <div class="col-md-6 offset-md-3">
+                  <div class="icons text-center">
+                   <a href="https://wx.qq.com/"><i class="fa fa-wechat fa-1x"></i></a>
+                    <a href="https://im.qq.com/index/"><i class="fa fa-qq fa-1x"></i></a>
+                   <a href="Facebook.html"> <i class="fa fa-facebook fa-1x"></i></a>
+                    <a href="tiwer.html"><i class="fa fa-twitter fa-1x"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+</body>
+
+</html>
